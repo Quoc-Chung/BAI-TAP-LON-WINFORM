@@ -16,6 +16,11 @@ namespace QLKS
         public frmNV()
         {
             InitializeComponent();
-        }	
-	}
+        }
+
+        private void frmNV_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
