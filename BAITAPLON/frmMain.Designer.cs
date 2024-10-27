@@ -46,6 +46,7 @@
 			this.mnHoSoNhanVien = new System.Windows.Forms.ToolStripMenuItem();
 			this.trợGiúpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.nhậpLạiMậtKhẩuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.đăngXuấtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.hScrollBar1 = new System.Windows.Forms.HScrollBar();
 			this.lblTen = new System.Windows.Forms.Label();
 			this.lblTenNhanVien = new System.Windows.Forms.Label();
@@ -121,14 +122,14 @@
 			// mnTimKiemPhong
 			// 
 			this.mnTimKiemPhong.Name = "mnTimKiemPhong";
-			this.mnTimKiemPhong.Size = new System.Drawing.Size(224, 26);
+			this.mnTimKiemPhong.Size = new System.Drawing.Size(176, 26);
 			this.mnTimKiemPhong.Text = "Phòng";
 			this.mnTimKiemPhong.Click += new System.EventHandler(this.mnTimKiemPhong_Click);
 			// 
 			// mnKhachHang
 			// 
 			this.mnKhachHang.Name = "mnKhachHang";
-			this.mnKhachHang.Size = new System.Drawing.Size(224, 26);
+			this.mnKhachHang.Size = new System.Drawing.Size(176, 26);
 			this.mnKhachHang.Text = "Khách Hàng";
 			this.mnKhachHang.Click += new System.EventHandler(this.mnKhachHang_Click);
 			// 
@@ -191,7 +192,8 @@
 			// trợGiúpToolStripMenuItem
 			// 
 			this.trợGiúpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.nhậpLạiMậtKhẩuToolStripMenuItem});
+            this.nhậpLạiMậtKhẩuToolStripMenuItem,
+            this.đăngXuấtToolStripMenuItem});
 			this.trợGiúpToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.trợGiúpToolStripMenuItem.Name = "trợGiúpToolStripMenuItem";
 			this.trợGiúpToolStripMenuItem.Size = new System.Drawing.Size(83, 24);
@@ -204,6 +206,13 @@
 			this.nhậpLạiMậtKhẩuToolStripMenuItem.Text = "Nhập  Lại Mật Khẩu";
 			this.nhậpLạiMậtKhẩuToolStripMenuItem.Click += new System.EventHandler(this.nhậpLạiMậtKhẩuToolStripMenuItem_Click);
 			// 
+			// đăngXuấtToolStripMenuItem
+			// 
+			this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
+			this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(230, 26);
+			this.đăngXuấtToolStripMenuItem.Text = "Đăng Xuất";
+			this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.đăngXuấtToolStripMenuItem_Click);
+			// 
 			// hScrollBar1
 			// 
 			this.hScrollBar1.Location = new System.Drawing.Point(273, 0);
@@ -213,24 +222,27 @@
 			// 
 			// lblTen
 			// 
+			this.lblTen.Font = new System.Drawing.Font("Segoe UI Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
 			this.lblTen.Location = new System.Drawing.Point(12, 420);
 			this.lblTen.Name = "lblTen";
-			this.lblTen.Size = new System.Drawing.Size(129, 22);
+			this.lblTen.Size = new System.Drawing.Size(146, 22);
 			this.lblTen.TabIndex = 3;
 			this.lblTen.Text = "Tên Nhân Viên ";
 			this.lblTen.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// lblTenNhanVien
 			// 
+			this.lblTenNhanVien.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblTenNhanVien.ForeColor = System.Drawing.Color.Red;
 			this.lblTenNhanVien.Location = new System.Drawing.Point(147, 420);
 			this.lblTenNhanVien.Name = "lblTenNhanVien";
 			this.lblTenNhanVien.Size = new System.Drawing.Size(194, 22);
 			this.lblTenNhanVien.TabIndex = 4;
-			this.lblTenNhanVien.Text = "label1";
 			this.lblTenNhanVien.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// label1
 			// 
+			this.label1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label1.Location = new System.Drawing.Point(427, 420);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(76, 22);
@@ -240,11 +252,12 @@
 			// 
 			// lblNgaySinh
 			// 
+			this.lblNgaySinh.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblNgaySinh.ForeColor = System.Drawing.Color.Red;
 			this.lblNgaySinh.Location = new System.Drawing.Point(509, 420);
 			this.lblNgaySinh.Name = "lblNgaySinh";
 			this.lblNgaySinh.Size = new System.Drawing.Size(194, 22);
 			this.lblNgaySinh.TabIndex = 6;
-			this.lblNgaySinh.Text = "label1";
 			this.lblNgaySinh.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
 			// panel1
@@ -307,6 +320,7 @@
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Label lblNgaySinh;
 		private System.Windows.Forms.ToolStripMenuItem nhậpLạiMậtKhẩuToolStripMenuItem;
+		private System.Windows.Forms.ToolStripMenuItem đăngXuấtToolStripMenuItem;
 	}
 }
 
