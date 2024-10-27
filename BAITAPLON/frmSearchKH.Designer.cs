@@ -74,6 +74,7 @@ namespace QLKS
 			this.btnTim.Size = new System.Drawing.Size(100, 35);
 			this.btnTim.TabIndex = 18;
 			this.btnTim.Text = "Tìm";
+			this.btnTim.Click += new System.EventHandler(this.btnTim_Click);
 			// 
 			// btnThoat
 			// 

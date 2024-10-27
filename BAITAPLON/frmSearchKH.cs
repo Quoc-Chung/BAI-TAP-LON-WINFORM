@@ -21,5 +21,10 @@ namespace QLKS
 		{
 
 		}
+
+		private void btnTim_Click(object sender, EventArgs e)
+		{
+			MessageBox.Show("Lon me thang chung");
+		}
 	}
 }
