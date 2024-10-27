@@ -11,8 +11,12 @@
       "RelativeMoniker": "D:0:0:{FEF205B9-E3A3-4344-9821-40CF5B6182CE}|BAITAPLON.csproj|solutionrelative:frmsearchkh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEF205B9-E3A3-4344-9821-40CF5B6182CE}|BAITAPLON.csproj|d:\\laptrinhtrucquan\\baitaplonlltq\\baitaplon\\frmsearchphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FEF205B9-E3A3-4344-9821-40CF5B6182CE}|BAITAPLON.csproj|D:\\Laptrinhtrucquan\\BaiTapLonLLTQ\\BAITAPLON\\frmsearchphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FEF205B9-E3A3-4344-9821-40CF5B6182CE}|BAITAPLON.csproj|solutionrelative:frmsearchphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF205B9-E3A3-4344-9821-40CF5B6182CE}|BAITAPLON.csproj|d:\\laptrinhtrucquan\\baitaplonlltq\\baitaplon\\frmsearchphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF205B9-E3A3-4344-9821-40CF5B6182CE}|BAITAPLON.csproj|solutionrelative:frmsearchphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,9 +48,9 @@
               "RelativeDocumentMoniker": "frmSearchKH.cs",
               "ToolTip": "D:\\Laptrinhtrucquan\\BaiTapLonLLTQ\\BAITAPLON\\frmSearchKH.cs",
               "RelativeToolTip": "frmSearchKH.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAcwBoAAAApAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAmwCEAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T10:27:39.327Z",
+              "WhenOpened": "2024-10-27T12:05:32.512Z",
               "EditorCaption": ""
             },
             {
@@ -58,8 +62,21 @@
               "ToolTip": "D:\\Laptrinhtrucquan\\BaiTapLonLLTQ\\BAITAPLON\\frmSearchKH.cs [Design]",
               "RelativeToolTip": "frmSearchKH.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T10:11:00.814Z",
+              "WhenOpened": "2024-10-27T12:05:27.192Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmSearchPhong.cs",
+              "DocumentMoniker": "D:\\Laptrinhtrucquan\\BaiTapLonLLTQ\\BAITAPLON\\frmSearchPhong.cs",
+              "RelativeDocumentMoniker": "frmSearchPhong.cs",
+              "ToolTip": "D:\\Laptrinhtrucquan\\BaiTapLonLLTQ\\BAITAPLON\\frmSearchPhong.cs",
+              "RelativeToolTip": "frmSearchPhong.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T11:03:35.625Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

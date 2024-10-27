@@ -87,6 +87,7 @@ namespace QLKS
 			this.btnThoat.Size = new System.Drawing.Size(100, 35);
 			this.btnThoat.TabIndex = 17;
 			this.btnThoat.Text = "Thoát";
+			this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
 			// 
 			// dtGrid
 			// 
