@@ -13,9 +13,22 @@ namespace BAITAPLON
 {
 	public partial class frmMain : Form
 	{
+		public string MaNhanVien { get; set; }
+		public string HoTen { get; set; }
+
+		public string PassWord { get; set; }
+		public DateTime NgaySinh { get; set; } // Thêm thuộc tính cho ngày sinh 
+
+
+
 		public frmMain()
 		{
-			InitializeComponent();
+			InitializeComponent();		
+		}
+		public void LoadData()
+		{
+			lblTenNhanVien.Text = HoTen;
+			lblNgaySinh.Text = NgaySinh.ToString("dd/MM/yyyy");
 		}
 		private void mnLoaiPhong_Click(object sender, EventArgs e)
 		{
@@ -66,14 +79,37 @@ namespace BAITAPLON
 
 		private void nhậpLạiMậtKhẩuToolStripMenuItem_Click(object sender, EventArgs e)
 		{
-			frmChangeProfile frmChangeProfile = new frmChangeProfile();
+			frmChangeProfile frmChangeProfile = new frmChangeProfile
+			{
+				MaNhanVien = this.MaNhanVien,
+				MatKhauCu = this.PassWord
+			};
 			frmChangeProfile.Show();
 		}
 
+	
 		private void mnQLKhachHang_Click(object sender, EventArgs e)
 		{
 			frmKH frmKH = new frmKH();
 			frmKH.Show();
 		}
+
+		private void đăngXuấtToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			
+				// Hỏi người dùng có muốn đăng xuất không
+				var result = MessageBox.Show("Bạn có chắc chắn muốn đăng xuất không?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+				if (result == DialogResult.Yes)
+				{
+					
+					// Quay lại form đăng nhập
+					frmDangNhap dangNhapForm = new frmDangNhap();
+					this.Hide(); // Ẩn form hiện tại
+					dangNhapForm.Show(); // Hiển thị form đăng nhập
+				}
+			}
+
+		}
+
 	}
-}

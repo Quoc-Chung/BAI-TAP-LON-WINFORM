@@ -30,6 +30,7 @@ namespace QLKS
         private void InitializeComponent()
         {
 			this.groupBox2 = new System.Windows.Forms.GroupBox();
+			this.txtMaSo = new System.Windows.Forms.TextBox();
 			this.cboLoaiPhong = new System.Windows.Forms.ComboBox();
 			this.chkTrong = new System.Windows.Forms.CheckBox();
 			this.btnTim = new System.Windows.Forms.Button();
@@ -37,7 +38,6 @@ namespace QLKS
 			this.dtGrid = new System.Windows.Forms.DataGrid();
 			this.label3 = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
-			this.txtMaSo = new System.Windows.Forms.TextBox();
 			this.groupBox2.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dtGrid)).BeginInit();
 			this.SuspendLayout();
@@ -54,19 +54,31 @@ namespace QLKS
 			this.groupBox2.Controls.Add(this.label3);
 			this.groupBox2.Controls.Add(this.label1);
 			this.groupBox2.FlatStyle = System.Windows.Forms.FlatStyle.System;
-			this.groupBox2.Location = new System.Drawing.Point(16, 19);
+			this.groupBox2.Location = new System.Drawing.Point(13, 14);
 			this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.groupBox2.Name = "groupBox2";
 			this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-			this.groupBox2.Size = new System.Drawing.Size(608, 532);
+			this.groupBox2.Size = new System.Drawing.Size(614, 532);
 			this.groupBox2.TabIndex = 12;
 			this.groupBox2.TabStop = false;
 			this.groupBox2.Text = "Thông tin cần tìm";
+			// 
+			// txtMaSo
+			// 
+			this.txtMaSo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			this.txtMaSo.Location = new System.Drawing.Point(141, 32);
+			this.txtMaSo.Name = "txtMaSo";
+			this.txtMaSo.Size = new System.Drawing.Size(191, 27);
+			this.txtMaSo.TabIndex = 21;
 			// 
 			// cboLoaiPhong
 			// 
 			this.cboLoaiPhong.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			this.cboLoaiPhong.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.cboLoaiPhong.Items.AddRange(new object[] {
+            "Phòng VIP",
+            "Phòng Tầm Trung",
+            "Phòng Thường"});
 			this.cboLoaiPhong.Location = new System.Drawing.Point(141, 74);
 			this.cboLoaiPhong.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.cboLoaiPhong.Name = "cboLoaiPhong";
@@ -95,6 +107,7 @@ namespace QLKS
 			this.btnTim.Size = new System.Drawing.Size(100, 35);
 			this.btnTim.TabIndex = 18;
 			this.btnTim.Text = "Tìm";
+			this.btnTim.Click += new System.EventHandler(this.btnTim_Click);
 			// 
 			// btnThoat
 			// 
@@ -107,6 +120,7 @@ namespace QLKS
 			this.btnThoat.Size = new System.Drawing.Size(100, 35);
 			this.btnThoat.TabIndex = 17;
 			this.btnThoat.Text = "Thoát";
+			this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
 			// 
 			// dtGrid
 			// 
@@ -117,11 +131,11 @@ namespace QLKS
 			this.dtGrid.CaptionText = "Danh sách phòng thỏa điều kiện";
 			this.dtGrid.DataMember = "";
 			this.dtGrid.HeaderForeColor = System.Drawing.SystemColors.ControlText;
-			this.dtGrid.Location = new System.Drawing.Point(11, 148);
+			this.dtGrid.Location = new System.Drawing.Point(15, 145);
 			this.dtGrid.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
 			this.dtGrid.Name = "dtGrid";
 			this.dtGrid.ReadOnly = true;
-			this.dtGrid.Size = new System.Drawing.Size(589, 377);
+			this.dtGrid.Size = new System.Drawing.Size(577, 377);
 			this.dtGrid.TabIndex = 16;
 			// 
 			// label3
@@ -145,20 +159,12 @@ namespace QLKS
 			this.label1.TabIndex = 15;
 			this.label1.Text = "Loại phòng:";
 			// 
-			// txtMaSo
-			// 
-			this.txtMaSo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.txtMaSo.Location = new System.Drawing.Point(141, 32);
-			this.txtMaSo.Name = "txtMaSo";
-			this.txtMaSo.Size = new System.Drawing.Size(191, 27);
-			this.txtMaSo.TabIndex = 21;
-			// 
 			// frmSearchPhong
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackgroundImage = global::BAITAPLON.Properties.Resources.anh52;
-			this.ClientSize = new System.Drawing.Size(646, 558);
+			this.ClientSize = new System.Drawing.Size(640, 558);
 			this.Controls.Add(this.groupBox2);
 			this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
