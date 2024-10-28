@@ -54,11 +54,11 @@ namespace QLKS
             this.cmdEdit = new System.Windows.Forms.Button();
             this.cmdAdd = new System.Windows.Forms.Button();
             this.grpFunction = new System.Windows.Forms.GroupBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridView = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.grpFunction.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // dTPicker_NSinh
@@ -125,12 +125,14 @@ namespace QLKS
             this.btnThemAnh.TabIndex = 4;
             this.btnThemAnh.Text = "Thêm ảnh";
             this.btnThemAnh.UseVisualStyleBackColor = false;
+            this.btnThemAnh.Click += new System.EventHandler(this.btnThemAnh_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(510, 25);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(184, 204);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             // 
@@ -303,6 +305,7 @@ namespace QLKS
             this.cmdExit.Size = new System.Drawing.Size(119, 35);
             this.cmdExit.TabIndex = 3;
             this.cmdExit.Text = "Thoát";
+            this.cmdExit.Click += new System.EventHandler(this.cmdExit_Click);
             // 
             // cmdDelete
             // 
@@ -314,6 +317,7 @@ namespace QLKS
             this.cmdDelete.Size = new System.Drawing.Size(119, 35);
             this.cmdDelete.TabIndex = 2;
             this.cmdDelete.Text = "Xóa";
+            this.cmdDelete.Click += new System.EventHandler(this.cmdDelete_Click);
             // 
             // cmdEdit
             // 
@@ -325,6 +329,7 @@ namespace QLKS
             this.cmdEdit.Size = new System.Drawing.Size(119, 35);
             this.cmdEdit.TabIndex = 1;
             this.cmdEdit.Text = "Sửa";
+            this.cmdEdit.Click += new System.EventHandler(this.cmdEdit_Click);
             // 
             // cmdAdd
             // 
@@ -336,6 +341,7 @@ namespace QLKS
             this.cmdAdd.Size = new System.Drawing.Size(119, 35);
             this.cmdAdd.TabIndex = 0;
             this.cmdAdd.Text = "Thêm";
+            this.cmdAdd.Click += new System.EventHandler(this.cmdAdd_Click);
             // 
             // grpFunction
             // 
@@ -352,16 +358,17 @@ namespace QLKS
             this.grpFunction.TabIndex = 8;
             this.grpFunction.TabStop = false;
             // 
-            // dataGridView1
+            // dataGridView
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(16, 431);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(863, 327);
-            this.dataGridView1.TabIndex = 10;
+            this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView.Location = new System.Drawing.Point(16, 431);
+            this.dataGridView.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.dataGridView.Name = "dataGridView";
+            this.dataGridView.RowHeadersWidth = 51;
+            this.dataGridView.RowTemplate.Height = 24;
+            this.dataGridView.Size = new System.Drawing.Size(863, 327);
+            this.dataGridView.TabIndex = 10;
+            this.dataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellClick);
             // 
             // frmNV
             // 
@@ -369,7 +376,7 @@ namespace QLKS
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::BAITAPLON.Properties.Resources.anh9;
             this.ClientSize = new System.Drawing.Size(892, 772);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dataGridView);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.grpFunction);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -383,7 +390,7 @@ namespace QLKS
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.grpFunction.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -412,7 +419,7 @@ namespace QLKS
         private System.Windows.Forms.Button cmdEdit;
         private System.Windows.Forms.Button cmdAdd;
         private System.Windows.Forms.GroupBox grpFunction;
-		private System.Windows.Forms.DataGridView dataGridView1;
+		private System.Windows.Forms.DataGridView dataGridView;
 		private System.Windows.Forms.Button btnThemAnh;
 		private System.Windows.Forms.PictureBox pictureBox1;
 	}

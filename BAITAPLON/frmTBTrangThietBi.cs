@@ -150,9 +150,9 @@ namespace QLKS
 
         private void cmdCancel_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("bạn yêu có thoát không ", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            if (MessageBox.Show("Bạn có muốn thoát không ", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
             {
-                Application.Exit();
+                this.Close();
             }
         }
 

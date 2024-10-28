@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\KI1NAM3\\LTRINH_TQUAN\\BTL\\hunghoang\\BAI-TAP-LON-WINFORM\\BAITAPLON\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FEF205B9-E3A3-4344-9821-40CF5B6182CE}|BAITAPLON.csproj|d:\\ki1nam3\\ltrinh_tquan\\btl\\hunghoang\\bai-tap-lon-winform\\baitaplon\\frmtbtrangthietbi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEF205B9-E3A3-4344-9821-40CF5B6182CE}|BAITAPLON.csproj|solutionrelative:frmtbtrangthietbi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FEF205B9-E3A3-4344-9821-40CF5B6182CE}|BAITAPLON.csproj|d:\\ki1nam3\\ltrinh_tquan\\btl\\hunghoang\\bai-tap-lon-winform\\baitaplon\\frmtbtrangthietbi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FEF205B9-E3A3-4344-9821-40CF5B6182CE}|BAITAPLON.csproj|solutionrelative:frmtbtrangthietbi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEF205B9-E3A3-4344-9821-40CF5B6182CE}|BAITAPLON.csproj|d:\\ki1nam3\\ltrinh_tquan\\btl\\hunghoang\\bai-tap-lon-winform\\baitaplon\\frmnv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FEF205B9-E3A3-4344-9821-40CF5B6182CE}|BAITAPLON.csproj|solutionrelative:frmnv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FEF205B9-E3A3-4344-9821-40CF5B6182CE}|BAITAPLON.csproj|d:\\ki1nam3\\ltrinh_tquan\\btl\\hunghoang\\bai-tap-lon-winform\\baitaplon\\frmtbtrangthietbi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF205B9-E3A3-4344-9821-40CF5B6182CE}|BAITAPLON.csproj|solutionrelative:frmtbtrangthietbi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEF205B9-E3A3-4344-9821-40CF5B6182CE}|BAITAPLON.csproj|d:\\ki1nam3\\ltrinh_tquan\\btl\\hunghoang\\bai-tap-lon-winform\\baitaplon\\frmnv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEF205B9-E3A3-4344-9821-40CF5B6182CE}|BAITAPLON.csproj|solutionrelative:frmnv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF205B9-E3A3-4344-9821-40CF5B6182CE}|BAITAPLON.csproj|D:\\KI1NAM3\\LTRINH_TQUAN\\BTL\\hunghoang\\BAI-TAP-LON-WINFORM\\BAITAPLON\\frmnv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FEF205B9-E3A3-4344-9821-40CF5B6182CE}|BAITAPLON.csproj|solutionrelative:frmnv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF205B9-E3A3-4344-9821-40CF5B6182CE}|BAITAPLON.csproj|d:\\ki1nam3\\ltrinh_tquan\\btl\\hunghoang\\bai-tap-lon-winform\\baitaplon\\frmnv.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF205B9-E3A3-4344-9821-40CF5B6182CE}|BAITAPLON.csproj|solutionrelative:frmnv.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,45 +46,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "frmTBTrangThietBi.cs",
               "DocumentMoniker": "D:\\KI1NAM3\\LTRINH_TQUAN\\BTL\\hunghoang\\BAI-TAP-LON-WINFORM\\BAITAPLON\\frmTBTrangThietBi.cs",
               "RelativeDocumentMoniker": "frmTBTrangThietBi.cs",
               "ToolTip": "D:\\KI1NAM3\\LTRINH_TQUAN\\BTL\\hunghoang\\BAI-TAP-LON-WINFORM\\BAITAPLON\\frmTBTrangThietBi.cs",
               "RelativeToolTip": "frmTBTrangThietBi.cs",
-              "ViewState": "AgIAAMMAAAAAAAAAAAAAwM4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T07:31:16.896Z",
+              "WhenOpened": "2024-10-28T06:02:34.754Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "frmTBTrangThietBi.cs [Design]",
               "DocumentMoniker": "D:\\KI1NAM3\\LTRINH_TQUAN\\BTL\\hunghoang\\BAI-TAP-LON-WINFORM\\BAITAPLON\\frmTBTrangThietBi.cs",
               "RelativeDocumentMoniker": "frmTBTrangThietBi.cs",
               "ToolTip": "D:\\KI1NAM3\\LTRINH_TQUAN\\BTL\\hunghoang\\BAI-TAP-LON-WINFORM\\BAITAPLON\\frmTBTrangThietBi.cs [Design]",
               "RelativeToolTip": "frmTBTrangThietBi.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T07:28:42.535Z",
+              "WhenOpened": "2024-10-28T06:02:30.834Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "frmNV.Designer.cs",
+              "DocumentMoniker": "D:\\KI1NAM3\\LTRINH_TQUAN\\BTL\\hunghoang\\BAI-TAP-LON-WINFORM\\BAITAPLON\\frmNV.Designer.cs",
+              "RelativeDocumentMoniker": "frmNV.Designer.cs",
+              "ToolTip": "D:\\KI1NAM3\\LTRINH_TQUAN\\BTL\\hunghoang\\BAI-TAP-LON-WINFORM\\BAITAPLON\\frmNV.Designer.cs",
+              "RelativeToolTip": "frmNV.Designer.cs",
+              "ViewState": "AgIAAGUBAAAAAAAAAAAYwHIBAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T05:53:14.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "frmNV.cs",
               "DocumentMoniker": "D:\\KI1NAM3\\LTRINH_TQUAN\\BTL\\hunghoang\\BAI-TAP-LON-WINFORM\\BAITAPLON\\frmNV.cs",
               "RelativeDocumentMoniker": "frmNV.cs",
               "ToolTip": "D:\\KI1NAM3\\LTRINH_TQUAN\\BTL\\hunghoang\\BAI-TAP-LON-WINFORM\\BAITAPLON\\frmNV.cs",
               "RelativeToolTip": "frmNV.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABkBAAAAAAAAAAAcwCEBAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T07:07:34.935Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "frmNV.cs [Design]",
               "DocumentMoniker": "D:\\KI1NAM3\\LTRINH_TQUAN\\BTL\\hunghoang\\BAI-TAP-LON-WINFORM\\BAITAPLON\\frmNV.cs",
               "RelativeDocumentMoniker": "frmNV.cs",

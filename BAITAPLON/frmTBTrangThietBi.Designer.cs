@@ -230,6 +230,7 @@ namespace QLKS
             this.domainUpDownDieuhoa.Items.Add("3");
             this.domainUpDownDieuhoa.Items.Add("2");
             this.domainUpDownDieuhoa.Items.Add("1");
+            this.domainUpDownDieuhoa.Items.Add("0");
             this.domainUpDownDieuhoa.Location = new System.Drawing.Point(828, 45);
             this.domainUpDownDieuhoa.Name = "domainUpDownDieuhoa";
             this.domainUpDownDieuhoa.Size = new System.Drawing.Size(57, 22);
@@ -251,6 +252,7 @@ namespace QLKS
             this.domainUpDownTivi.Items.Add("3");
             this.domainUpDownTivi.Items.Add("2");
             this.domainUpDownTivi.Items.Add("1");
+            this.domainUpDownTivi.Items.Add("0");
             this.domainUpDownTivi.Location = new System.Drawing.Point(828, 73);
             this.domainUpDownTivi.Name = "domainUpDownTivi";
             this.domainUpDownTivi.Size = new System.Drawing.Size(57, 22);
@@ -271,6 +273,7 @@ namespace QLKS
             this.domainUpDownGiuong.Items.Add("3");
             this.domainUpDownGiuong.Items.Add("2");
             this.domainUpDownGiuong.Items.Add("1");
+            this.domainUpDownGiuong.Items.Add("0");
             this.domainUpDownGiuong.Location = new System.Drawing.Point(828, 101);
             this.domainUpDownGiuong.Name = "domainUpDownGiuong";
             this.domainUpDownGiuong.Size = new System.Drawing.Size(57, 22);
@@ -291,6 +294,7 @@ namespace QLKS
             this.domainUpDownMaychoigame.Items.Add("3");
             this.domainUpDownMaychoigame.Items.Add("2");
             this.domainUpDownMaychoigame.Items.Add("1");
+            this.domainUpDownMaychoigame.Items.Add("0");
             this.domainUpDownMaychoigame.Location = new System.Drawing.Point(828, 131);
             this.domainUpDownMaychoigame.Name = "domainUpDownMaychoigame";
             this.domainUpDownMaychoigame.Size = new System.Drawing.Size(57, 22);
@@ -310,7 +314,7 @@ namespace QLKS
             this.domainUpDownBinhnonglanh.Items.Add("4");
             this.domainUpDownBinhnonglanh.Items.Add("3");
             this.domainUpDownBinhnonglanh.Items.Add("2");
-            this.domainUpDownBinhnonglanh.Items.Add("1");
+            this.domainUpDownBinhnonglanh.Items.Add("0");
             this.domainUpDownBinhnonglanh.Location = new System.Drawing.Point(828, 159);
             this.domainUpDownBinhnonglanh.Name = "domainUpDownBinhnonglanh";
             this.domainUpDownBinhnonglanh.Size = new System.Drawing.Size(57, 22);
@@ -331,6 +335,7 @@ namespace QLKS
             this.domainUpDownDendien.Items.Add("3");
             this.domainUpDownDendien.Items.Add("2");
             this.domainUpDownDendien.Items.Add("1");
+            this.domainUpDownDendien.Items.Add("0");
             this.domainUpDownDendien.Location = new System.Drawing.Point(828, 187);
             this.domainUpDownDendien.Name = "domainUpDownDendien";
             this.domainUpDownDendien.Size = new System.Drawing.Size(57, 22);
@@ -351,6 +356,7 @@ namespace QLKS
             this.domainUpDownBan.Items.Add("3");
             this.domainUpDownBan.Items.Add("2");
             this.domainUpDownBan.Items.Add("1");
+            this.domainUpDownBan.Items.Add("0");
             this.domainUpDownBan.Location = new System.Drawing.Point(828, 215);
             this.domainUpDownBan.Name = "domainUpDownBan";
             this.domainUpDownBan.Size = new System.Drawing.Size(57, 22);
@@ -371,6 +377,7 @@ namespace QLKS
             this.domainUpDownGhe.Items.Add("3");
             this.domainUpDownGhe.Items.Add("2");
             this.domainUpDownGhe.Items.Add("1");
+            this.domainUpDownGhe.Items.Add("0");
             this.domainUpDownGhe.Location = new System.Drawing.Point(828, 243);
             this.domainUpDownGhe.Name = "domainUpDownGhe";
             this.domainUpDownGhe.Size = new System.Drawing.Size(57, 22);
